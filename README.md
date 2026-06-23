@@ -2,13 +2,13 @@
 
 A comprehensive Cisco network security implementation demonstrating port security configuration, MAC address management, and network access control using Cisco Packet Tracer.
 
-![Port Security Network Diagram](./images/network-topology.png)
+![Network Topology](./Topology.png)
 
 ## Overview
 
 This project implements professional-grade port security configurations on Cisco switches to protect network infrastructure from unauthorized access and MAC address attacks. It demonstrates best practices for network access control and security hardening.
 
-![Security Implementation](./images/port-security-setup.png)
+![Switch Configuration](./Switch%20config.png)
 
 ## Features
 
@@ -27,10 +27,8 @@ This project implements professional-grade port security configurations on Cisco
 Port-security/
 ├── README.md                    # This file
 ├── Port-security.pkt           # Cisco Packet Tracer network simulation
-└── images/
-    ├── network-topology.png     # Network topology diagram
-    ├── port-security-setup.png  # Configuration screenshot
-    └── violation-demo.png       # Security violation demonstration
+├── Topology.png                # Network topology diagram
+└── Switch config.png           # Configuration screenshot
 ```
 
 ## Requirements
@@ -96,7 +94,7 @@ show port-security
 | **Restrict** | Drops frames, logs | Moderate security |
 | **Protect** | Drops frames silently | Minimal notifications needed |
 
-![Configuration Example](./images/config-example.png)
+## Visual Reference
 
 ## Usage Guide
 
